@@ -10,9 +10,8 @@ The tool is designed to speed up pentesting by automating common checks and hunt
 - Supports authorized testing — allows sending custom authorization headers (e.g., Authorization: Bearer <token>) with requests.
 
 ### 🚀 Upcoming
-- Support for **Swagger/OpenAPI specifications** as input 
+- Support for more input formats (Swagger/OpenAPI specifications, Postman collections) 
 - Continuous addition of **new test cases** (aiming for broad coverage of OWASP API Top 10 + business logic flaws)  
-- Enhanced input formats (Postman collections, custom configs)  
 - Better post test result view
 - Various Authentication handling (OAuth, API Keys)  
 
@@ -20,7 +19,7 @@ The tool is designed to speed up pentesting by automating common checks and hunt
 
 # 🛠️ Usage
 
-Run the tool from the repository root with `main.py`.
+Run the tool from with `main.py` in the `tool` directory.
 
 Basic command-line syntax:
 
