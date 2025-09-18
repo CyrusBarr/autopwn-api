@@ -3,13 +3,13 @@
 **AutoPwn API** is an automation framework for **API security testing**, built to help researchers and developers identify vulnerabilities in RESTful and GraphQL APIs.  
 The tool is designed to speed up pentesting by automating common checks and hunting for flaws with minimal manual effort.
 
-### ✅ Capabilities
+### Capabilities
 - Supports **REST APIs**  
 - Accepts **HAR files** as input for testing  
 - Implements **4 test cases** so far (with more being added regularly)  
 - Supports authorized testing — allows sending custom authorization headers (e.g., Authorization: Bearer <token>) with requests.
 
-### 🚀 Upcoming
+### Upcoming
 - Support for more input formats (Swagger/OpenAPI specifications, Postman collections) 
 - Continuous addition of **new test cases** (aiming for broad coverage of OWASP API Top 10 + business logic flaws)  
 - Better post test result view
